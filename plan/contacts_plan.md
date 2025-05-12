@@ -9,7 +9,7 @@ Create a simple interactive COBOL program named `CONTACTS` that collects a perso
 ```
 cobol-question-mark/
 ├── plan/
-│   └── contacts_plan.md   ← this plan
+│   └── contacts_plan.md
 ├── src/
 │   └── contacts.cob       ← program source (to be created)
 ├── data/
@@ -104,7 +104,6 @@ cobc -x -o contacts src/contacts.cob
 ---
 
 ## 9. Next Steps
-1. Await your approval of this plan.
-2. Scaffold `src/contacts.cob` per sections above.
-3. Implement + test.
-4. Deliver final program.
+1. Scaffold `src/contacts.cob` per sections above.
+2. Implement + test.
+3. Deliver final program.
